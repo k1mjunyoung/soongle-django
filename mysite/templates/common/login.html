@@ -6,7 +6,7 @@
         <input type="hidden" name="next" value="{{ next }}">  <!-- 로그인 성공후 이동되는 URL -->
         {% include "form_errors.html" %}
         <div class="mb-3">
-            <label for="username">사용자ID</label>
+            <label for="username">아이디</label>
             <input type="text" class="form-control" name="username" id="username"
                    value="{{ form.username.value|default_if_none:'' }}">
         </div>
