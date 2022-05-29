@@ -4,7 +4,7 @@
 <div class="container my-3">
     <div class="row my-3">
         <div class="col-6">
-            <a href="{% url 'pybo:question_create' %}" class="btn btn-primary">질문 등록하기</a>
+            <a href="{% url 'pybo:question_create' %}" class="btn btn-primary">상품등록</a>
         </div>
         <div class="col-6">
             <div class="input-group">
@@ -44,7 +44,7 @@
         {% endfor %}
         {% else %}
         <tr>
-            <td colspan="3">질문이 없습니다.</td>
+            <td colspan="3">상품이 없습니다.</td>
         </tr>
         {% endif %}
         </tbody>
