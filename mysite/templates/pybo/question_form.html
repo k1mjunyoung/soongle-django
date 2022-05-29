@@ -11,7 +11,7 @@
                    value="{{ form.subject.value|default_if_none:'' }}">
         </div>
         <div class="mb-3">
-            <label for="content" class="form-label">상품설명과 연락처를 적어주세요!(전화번호, 오픈채팅방 링크 등)</label>
+            <label for="content" class="form-label">상품설명과 가격, 연락처를 적어주세요!(카카오톡 오픈채팅방 링크 권장)</label>
             <textarea class="form-control" name="content"
                       id="content" rows="10">{{ form.content.value|default_if_none:'' }}</textarea>
         </div>
